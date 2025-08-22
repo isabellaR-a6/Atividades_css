@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body class="style">
+    <h1 class="Titulo">Formulario de Inscrição</h1> 
+    
+    <form action="">
+        <label for="nome">Digite o seu nome</label>
+        <input type="text" name="nome" id="nome"
+        placeholder="Digite Aqui">
+        <br>
+        <br>
+        <label for="Endereço">Digite Seu Endereço</label>
+        <input type="text" name="Endereço" id="Endereço" value="Rua e Nr">
+        <br>
+        <br>
+        <label for="Bairro">Digite o Bairro</label>
+        <input type="text" name="Bairro" id="Bairro" value="Bairro">
+        <br>
+        <br>
+        <label for="Cidade">Digite Sua Cidade</label>
+        <input type="text" name="Cidade" id="Cidade" value="Santo André">
+        <br>
+        <br>
+        <p>Entre com sua Mensagem</p>
+        <textarea cols="50" rows="10" placeholder="Digite até 500 caracteres"></textarea>
+        <br>
+        <br>
+        <p>Escolha o(s) modelo(s) de trabalho: </p>
+
+        <ul>
+            <li><input type="checkbox" value="Presencial"> Presencial</li>
+            <li><input type="checkbox" value="Remoto"> Remoto</li> 
+            <li><input type="checkbox" value="Hibrido" checked> Híbrido</li>
+        </ul>
+        <p>Escolha o período de trabalho:</p>
+        <ul class="Redondo">
+            <li><input type="checkbox" value="periodo"> Manhã</li>
+            <li><input type="checkbox" value="periodo"> Tarde</li> 
+            <li><input type="checkbox" value="periodo"> Noite</li>
+        </ul>
+        <p>Ecolha um Estado:</p>
+        <select name="Estado">
+                <option value="AL">Alagoas</option> 
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" value="Aceitar" required>Aceito o termo e usos do site</li>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
+
+
+    </form>
+
+</body>
+</html>

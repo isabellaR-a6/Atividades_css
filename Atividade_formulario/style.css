@@ -1,0 +1,16 @@
+.Titulo{
+    color: rgb(218, 30, 30);
+}
+
+    .style{
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom right, 
+    #3cb371 0%,     /* verde médio no canto superior esquerdo */
+    #b2f7b0 20%,    /* verde claro */
+    #ffffff 50%,    /* branco no meio */
+    #b2f7b0 80%,    /* verde claro */
+    #3cb371 100%    /* verde médio no canto inferior direito */
+  );
+}
+    
