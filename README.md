@@ -46,7 +46,7 @@ Praticar conceitos básicos de tabelas em HTML, integrando estilos CSS para melh
 
 <img width="663" height="362" alt="image" src="https://github.com/user-attachments/assets/920ce5c8-f2f8-4a25-b72e-1b7340aade59" />
 
--------------------------------------------------------------------Projeto: Formulário de Inscrição---------------------------------------------------------------------------
+-------------------------------------------------------------------Projeto: Formulário de Inscrição----------------------------------------------------------------
 
 Este projeto é um exercício de HTML e CSS voltado para a criação de um formulário completo com campos de texto, áreas de seleção, caixas de verificação e estilização de fundo usando degradê linear.
 
